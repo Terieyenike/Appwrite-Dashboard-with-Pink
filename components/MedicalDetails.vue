@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div>
-      <h2 class="u-bold">Medication History</h2>
+      <h2 class="eyebrow-heading-2">Medication History</h2>
       <ul class="list" v-for="medication in medications" :key="medication.$id">
         <li
           class="list-item"
@@ -15,7 +15,7 @@
     </div>
 
     <div>
-      <h2 class="u-bold">Upcoming Doses</h2>
+      <h2 class="eyebrow-heading-2">Upcoming Doses</h2>
       <ul class="list" v-for="item in medications" :key="item.$id">
         <li class="list-item">
           <span class="text u-bold">Check in:</span>

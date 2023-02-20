@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h2 class="heading-level-2">Other Information</h2>
+    <h2 class="eyebrow-heading-2">Other Information</h2>
 
     <div class="u-flex u-cross-center u-gap-24">
       <div>
