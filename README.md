@@ -2,6 +2,8 @@
 
 Dashboard showcasing patients medication history and upcoming doses.
 
+![medication dashboard](./public/medication-deshboard.jpg)
+
 ## Setup
 
 Make sure to install the dependencies:
