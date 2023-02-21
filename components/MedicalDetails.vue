@@ -43,8 +43,6 @@ onMounted(() => {
   getList.then(
     function (response) {
       medications.value = response.documents;
-      console.log(medications.value);
-      // console.log(response.documents);
     },
     function (error) {
       console.log(error); // Failure

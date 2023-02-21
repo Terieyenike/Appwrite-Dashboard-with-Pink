@@ -1,4 +1,5 @@
 <template>
+  <nav-bar />
   <user-info />
   <medical-details />
   <patient-info />
