@@ -5,10 +5,10 @@ const client = new Client();
 const databases = new Databases(client);
 
 client
-  .setEndpoint('http://localhost/v1') // Your API Endpoint
-  .setProject('63f363c2aa5021f765cc'); // Your project ID
+  .setEndpoint('https://cloud.appwrite.io/v1')
+  .setProject('63fb62b636399892cf6e');
 
 export const getList = databases.listDocuments(
-  '63f366b7d685ba509d00',
-  '63f366d65864d63af238'
+  '63fb634be6642fdbb096',
+  '63fb63723fa78d888204'
 );
